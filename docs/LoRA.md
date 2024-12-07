@@ -57,7 +57,7 @@ SD.Next displays these trigger words in the UI -> Networks -> LoRA, but they can
 You can combine any number of LoRAs in a single prompt to get the desired output.  
 
 !!! tip
-  
+
     If you want to automatically apply trigger words/tags to prompt, you can use `auto-apply` feature in *"Settings -> Networks"*  
 
 !!! tip

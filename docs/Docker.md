@@ -145,7 +145,7 @@ docker ps --all
     View Log
 
 ```shell
-    docker container logs --follow <id>
+docker container logs --follow <id>
 ```
 
 !!! tip
@@ -153,7 +153,7 @@ docker ps --all
     Stop Container
 
 ```shell
-    docker container stop <id>
+docker container stop <id>
 ```
 
 !!! tip
@@ -176,7 +176,7 @@ docker run --name pytorch --rm --gpus all -it pytorch/pytorch:2.5.1-cuda12.4-cud
 
 ## Manual Install
 
-> Docker
+### Docker
 
 ```shell
 wget https://download.docker.com/linux/ubuntu/dists/noble/pool/stable/amd64/containerd.io_1.7.23-1_amd64.deb
@@ -192,7 +192,7 @@ systemctl status docker
 systemctl status containerd
 ```
 
-> nVidia Container ToolKit
+### nVidia Container ToolKit
 
 ```shell
 curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg

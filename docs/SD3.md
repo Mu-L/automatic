@@ -26,7 +26,9 @@ StabilityAI's Stable Diffusion 3 family consists of:
     Check compatibility of different quantizations with your platform and GPU!  
     For more information see [Quantization Wiki](https://github.com/vladmandic/automatic/wiki/Quantization)  
 
-    [!TIP] Use reference models
+!!! tip
+
+    Use reference models
     Use of reference models is recommended over manually downloaded models!  
     Simply select it from *Networks -> Models -> Reference*  
   and model will be auto-downloaded on first use  
